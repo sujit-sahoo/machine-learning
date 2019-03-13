@@ -1,28 +1,9 @@
-# Customer Segmentation
-Predicting the “CustomerValue” in a retail store as High/
-Medium/Low
-Problem Statement:
-To predict the Customer value for a retail store based on different quantitative
-and qualitative features provided.
-The customer value is a profitability metric in terms of a value placed by the company on each
-customer and can be conceived in two dimensions: the customer's present Value and potential
-future Value.
-A major retail store wants to evaluate customer lvalue in terms of high/medium/low based on each
-customer’s demographics and purchase information/ sales transactions, to take optimal
-marketing/promotional decisions and implement appropriate action plans .
-You are expected to create an analytical and modelling framework to predict customer value of each
-customer as High/Medium/Low based on the quantitative and qualitative features provided in the
-dataset.
-Data:
-1. Train.csv & Test.csv (CustomerId and Target
-attribute:”CustomerValue”, but Test.csv doesn’t have Target attribute as
-it is to be predicted)
-2. Train_Transactions.csv & Test_Transactions.csv
-3. Train_Demographics.csv & Test_Demographics.csv
-Objective:
-You are expected to create an analytical and modeling framework to
-predict the CustomerValue for each CustomerId as either of three classes
-( “High”, “Medium” & “Low”) based on the quantitative and
-qualitative features provided in the data.
-Evaluation Metric: Accuracy
+# Text Classification
+LifeLine HealthServices is a top ranked Health care provider in USA with stellar credentials and provides high quality-care with focus on end-to-end Health care services. The Heath Care Services range from basic medical diagnostics to critical emergency services.
+
+The provider follows a ticketing system for all the telephonic calls received across all the departments.
+
+Calls to the provider can be for New Appointment, Cancellation, Lab Queries, Medical Refills, Insurance Related, General Doctor Advise etc. The Tickets have the details of Summary of the call and description of the calls written by various staff members with no standard text guidelines.
+
+The challenge is, based on the Text in the Summary and Description of the call written in “converse” Column, the ticket is to be classified to Appropriate Category (out of 21 Categories)
 
